@@ -1,18 +1,11 @@
 
-print("enter u name: ")
-name=input()
+name=input("enter u name: ")
 
-print("enter u info: ")
-info=input()
+info=input("enter u info: ")
 
 with open("info.txt","w")as f:
-   f.write(name)
    f.write(info)
 
 with open("info.txt","r")as f:
-   print(f.read())
-   print(f.read())
-
-
-
+   print(name+"\'s info is: "+f.read())
 
