@@ -6,9 +6,9 @@ arr[1]="mango"
 print(arr)
 arr.insert(2,"Watermelon")
 
-cheack=input("enter fruit u want to find: ")
-cheack=cheack.strip().lower()
-print(cheack+"\'s number is : "+str(arr.count(cheack)))   # بضل يطلع عندي صفر لما اكتب العنصر التاني ف الليست مش عارفة ليه 
+check=input("enter fruit u want to find: ")
+check=check.strip().lower()
+print(check+"\'s number is : "+str(arr.count(check)))   # بضل يطلع عندي صفر لما اكتب العنصر التاني ف الليست مش عارفة ليه 
 
 arr.sort()
 print(arr)
